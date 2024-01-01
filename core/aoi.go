@@ -13,8 +13,8 @@ type AOIManager struct {
 	grids map[int]*Grid //当前区域中都有哪些格子，key=格子ID， value=格子对象
 }
 
-// NewAOIManager 初始化一个AOI区域
-func (m *AOIManager) NewAOIManager(minX, maxX, cntX, minY, maxY, cntY int) *AOIManager {
+// 初始化一个AOI区域
+func NewAOIManager(minX, maxX, cntX, minY, maxY, cntY int) *AOIManager {
 	aoiMgr := &AOIManager{
 		MinX:  minX,
 		MaxX:  maxX,

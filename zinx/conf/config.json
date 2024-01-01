@@ -1,7 +1,7 @@
 {
   "Name":"gameServer",
   "Host":"0.0.0.0",
-  "TcpPort":7777,
+  "TcpPort":8999,
   "MaxConn":1000,
   "Version":"zInx 1.0",
   "IPVersion": "tcp4",
